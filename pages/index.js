@@ -79,79 +79,67 @@ export default function Home() {
       </div>
     </BackgroundSection>
 
-
     <BackgroundSection id="section3" imgSrc="/3.png">
   <div className="section-content">
     <h2>Why Choose Us</h2>
     <div className="reasons-list">
       <div className="reason">
         <i className="icon-expertise"></i>
-        <h3>Expertise</h3>
+        <h3>Quality and Experience</h3>
         <p>
-          Our team of expert developers has a wealth of experience crafting
-          custom bots that are specifically designed to meet the unique
-          requirements of each client. Our proficiency ensures high-quality
-          results every time.
+          Our developers have hands-on experience building Discord bots for various server needs. We focus on delivering quality work that makes a difference for your community.
         </p>
       </div>
       <div className="reason">
         <i className="icon-customization"></i>
-        <h3>Customization</h3>
+        <h3>Custom Solutions</h3>
         <p>
-          We offer a wide range of customizable features that empower you to
-          create a bot that aligns perfectly with your server's needs. Whether
-          it's automation, moderation, or user engagement, we provide solutions
-          tailored to your goals.
+          We understand that every server is unique. Our bots are built to match your specific requirements, whether it's moderation, automation, or engagement. Prices start at $100 for simple bots and can go up to $700+ for more advanced features.
         </p>
       </div>
       <div className="reason">
         <i className="icon-support"></i>
-        <h3>Support</h3>
+        <h3>Reliable Support</h3>
         <p>
-          We are committed to providing outstanding customer support. Our team
-          is readily available to assist you with any questions or issues that
-          may arise, ensuring that your custom bot continues to function
-          optimally and adapt to the growing needs of your server.
+          We're here to help. Our team offers reliable support to address any questions or issues you have. We'll work with you to ensure your bot runs smoothly and meets your server's evolving needs.
         </p>
       </div>
     </div>
   </div>
 </BackgroundSection>
 
-
-
-        <BackgroundSection id="section4" imgSrc="/2.png">
-        <div className="section-content bsection">
-  <h2>Popular Discord Bot Ideas</h2>
-  <div className="bot-ideas bsection">
-    <div className="bot-idea">
-      <h3>Game Coordinator</h3>
-      <p>Organize gaming sessions, tournaments, and events with ease.</p>
-    </div>
-    <div className="bot-idea">
-      <h3>Music Master</h3>
-      <p>Bring the party to your server with a fully featured music bot.</p>
-    </div>
-    <div className="bot-idea">
-      <h3>Role Manager</h3>
-      <p>Automate role assignments and server access for members.</p>
-    </div>
-    <div className="bot-idea">
-      <h3>Giveaway Guru</h3>
-      <p>Create, manage, and announce giveaways to engage your community.</p>
-    </div>
-    <div className="bot-idea">
-      <h3>Trivia Champ</h3>
-      <p>Challenge your community with fun and engaging trivia questions.</p>
-    </div>
-    <div className="bot-idea">
-      <h3>Moderation Pro</h3>
-      <p>Keep your server clean and organized with advanced moderation tools.</p>
+<BackgroundSection id="section4" imgSrc="/2.png">
+  <div className="section-content bsection">
+    <h2>Popular Discord Bot Ideas</h2>
+    <div className="bot-ideas bsection">
+      <div className="bot-idea">
+        <h3>Game Coordinator</h3>
+        <p>Schedule and organize gaming sessions and events for your community members.</p>
+      </div>
+      <div className="bot-idea">
+        <h3>Music Bot</h3>
+        <p>Add a music bot to play songs and create playlists for your server members to enjoy.</p>
+      </div>
+      <div className="bot-idea">
+        <h3>Role Manager</h3>
+        <p>Automate role assignments and manage member access with ease.</p>
+      </div>
+      <div className="bot-idea">
+        <h3>Giveaways</h3>
+        <p>Set up and run giveaways to boost engagement and reward your community members.</p>
+      </div>
+      <div className="bot-idea">
+        <h3>Trivia Games</h3>
+        <p>Host trivia games for your members to participate in and have fun.</p>
+      </div>
+      <div className="bot-idea">
+        <h3>Moderation Tools</h3>
+        <p>Keep your server safe and organized with a range of moderation features.</p>
+      </div>
     </div>
   </div>
-</div>
-
 </BackgroundSection>
+
         <BackgroundSection id="section5" imgSrc="/5.png">
           <div id="contact-section" className="section-content ">
             <h2>Contact Us</h2>
