@@ -1,0 +1,210 @@
+html {
+  font-size: 110%;
+}
+
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.background-section {
+  height: 100vh; /* Add this line to make sure each section covers the full viewport height */
+}
+
+h1 {
+  font-size: 450%;
+}
+
+h2 {
+  font-size: 250%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.5em;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 0.5em 0;
+}
+
+button {
+  background-color: #0070f3;
+  border: none;
+  color: white;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #005ec8;
+}
+
+/* Section content styles */
+.section-content {
+  max-width: 800px;
+  padding: 2em;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .section-content {
+    padding: 1em;
+  }
+}
+
+/* Contact form styles */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form input[type='text'],
+.contact-form input[type='email'],
+.contact-form textarea {
+  width: 100%;
+  padding: 0.5em;
+  margin: 0.5em 0;
+}
+
+.contact-form textarea {
+  resize: none;
+  height: 150px;
+}
+
+.contact-form button {
+  margin-top: 1em;
+}
+
+.bsection {
+  color: black;
+}
+
+.services-grid {
+  color: black;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2em;
+  margin-top: 2em;
+}
+
+.service {
+  color: black;
+  text-align: left;
+}
+
+/* Why Choose Us styles */
+.reasons-list {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.reason {
+  text-align: left;
+  max-width: 500px;
+}
+
+.icon-expertise,
+.icon-customization,
+.icon-support {
+  display: inline-block;
+  width: 60px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.bot-ideas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1em;
+  margin-top: 1em;
+}
+
+.bot-idea {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 1.2em;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.bot-idea h3 {
+  margin-bottom: 0.5em;
+}
+
+.bot-idea p {
+  margin-bottom: 0;
+}
+
+/* Contact form styles */
+.contact-form {
+  text-align: left;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.contact-form input[type='text'],
+.contact-form input[type='email'],
+.contact-form input[type='number'],
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.contact-form textarea {
+  resize: none;
+  height: 150px;
+}
+
+.contact-form button {
+  margin-top: 1em;
+}
+
+@media (max-width: 768px) {
+  .reasons-grid {
+    grid-template-columns: 1fr;
+  }
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+  
+}
