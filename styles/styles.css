@@ -204,6 +204,34 @@ button:hover {
   /* Other styles you want to apply to the BackgroundSection */
 }
 
+.navbar {
+  font-size: 90%;
+  position: top;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #ffffff; /* Background color for the navbar */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for the navbar */
+  z-index: 1000; /* Ensure the navbar is always above other content */
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: left; /* Align the link to the right */
+}
+
+.navbar a {
+  color: #000000; /* Link color */
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.navbar a:hover {
+  color: #0070f3; /* Link hover color */
+}
+
+
 @media (max-width: 768px) {
   .reasons-grid {
     grid-template-columns: 1fr;

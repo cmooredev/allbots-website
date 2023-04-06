@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Head from 'next/head';
 import BackgroundSection from '../components/BackgroundSection';
+import Navbar from '../components/Navbar.js';
+
 
 // Add setFormSubmitted as an argument
 const handleSubmit = async (e, setFormSubmitted) => {
@@ -42,40 +44,41 @@ export default function Home() {
       </Head>
 
       <main>
+    <Navbar />
     <BackgroundSection id="section1" imgSrc="/1.png">
       <div className="section-content">
         <h1>allbots</h1>
         <p>Unleash the Ultimate Discord Experience with Custom Bots Tailored to You!</p>
       </div>
     </BackgroundSection>
+
+
     <BackgroundSection id="section2" imgSrc="/4.png">
       <div className="section-content">
-        <h2 className="bsection">Our Services</h2>
+        <h2 className="bsection">Our Spectacular Services</h2>
         <div className="services-grid">
           <div className="service">
-            <h3>Custom Bots</h3>
+            <h3>Exquisite Custom Bots</h3>
             <p>
-              Unleash the power of a custom bot built just for you! Experience
-              cutting-edge features tailored to your needs.
+              Empower your digital presence with our state-of-the-art custom bots, meticulously crafted to fit your vision. Experience a new realm of possibilities with cutting-edge features, interactive user engagement, and seamless automation, all tailored to elevate your server to new heights.
             </p>
           </div>
           <div className="service">
-            <h3>Advanced Features</h3>
+            <h3>Premium Advanced Features</h3>
             <p>
-              Boost your Discord server with advanced features like moderation,
-              auto-roles, and custom commands.
+              Supercharge your Discord server with our arsenal of advanced features. Gain full control with robust moderation tools, automate user onboarding with dynamic auto-roles, and enrich interactions with custom commands. Our unparalleled solutions are designed to propel your server into a league of its own.
             </p>
           </div>
           <div className="service">
-            <h3>API Integrations</h3>
+            <h3>Seamless API Integrations</h3>
             <p>
-              Seamlessly integrate popular APIs to enhance your server with
-              real-time data and notifications.
+              Unlock limitless potential with our seamless API integrations. Enhance your server with real-time data from popular platforms, receive instant notifications, and create immersive experiences. Our expertise in API integrations brings a world of information to your fingertips, transforming your server into a hub of connectivity.
             </p>
           </div>
         </div>
       </div>
     </BackgroundSection>
+
 
     <BackgroundSection id="section3" imgSrc="/3.png">
   <div className="section-content">
@@ -85,30 +88,36 @@ export default function Home() {
         <i className="icon-expertise"></i>
         <h3>Expertise</h3>
         <p>
-          Our expert developer, Connor Moore, has years of experience crafting
-          custom bots tailored to clients' unique needs.
+          Our team of expert developers has a wealth of experience crafting
+          custom bots that are specifically designed to meet the unique
+          requirements of each client. Our proficiency ensures high-quality
+          results every time.
         </p>
       </div>
       <div className="reason">
         <i className="icon-customization"></i>
         <h3>Customization</h3>
         <p>
-          Choose from three feature-packed tiers to find the perfect bot
-          solution for your server, with options to further enhance your
-          experience.
+          We offer a wide range of customizable features that empower you to
+          create a bot that aligns perfectly with your server's needs. Whether
+          it's automation, moderation, or user engagement, we provide solutions
+          tailored to your goals.
         </p>
       </div>
       <div className="reason">
         <i className="icon-support"></i>
         <h3>Support</h3>
         <p>
-          Receive ongoing support and assistance to ensure your custom bot
-          continues to meet the evolving needs of your server.
+          We are committed to providing outstanding customer support. Our team
+          is readily available to assist you with any questions or issues that
+          may arise, ensuring that your custom bot continues to function
+          optimally and adapt to the growing needs of your server.
         </p>
       </div>
     </div>
   </div>
 </BackgroundSection>
+
 
 
         <BackgroundSection id="section4" imgSrc="/2.png">
@@ -144,7 +153,7 @@ export default function Home() {
 
 </BackgroundSection>
         <BackgroundSection id="section5" imgSrc="/5.png">
-          <div className="section-content">
+          <div id="contact-section" className="section-content ">
             <h2>Contact Us</h2>
             {formSubmitted ? (
               <div>
