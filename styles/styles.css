@@ -199,6 +199,11 @@ button:hover {
   margin-top: 1em;
 }
 
+.background-section-container {
+  width: 100%;
+  /* Other styles you want to apply to the BackgroundSection */
+}
+
 @media (max-width: 768px) {
   .reasons-grid {
     grid-template-columns: 1fr;
