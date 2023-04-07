@@ -49,6 +49,7 @@ export default function Home() {
     <BackgroundSection id="section1" imgSrc="/1.png" mobilePosition="left top">
       <div className="section-content">
         <h1>allbots</h1>
+        <h3><i>Custom Discord Bots</i></h3>
         <p>Unleash the Ultimate Discord Experience with Custom Bots Tailored to You!</p>
       </div>
     </BackgroundSection>
