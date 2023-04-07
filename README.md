@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## allbots
 
-https://allbots-website.vercel.app/
+https://allbots.vercel.app/
 
 Website for Discord Bot Creation agency. 
 

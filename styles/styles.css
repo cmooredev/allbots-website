@@ -233,6 +233,15 @@ button:hover {
   color: #0070f3; /* Link hover color */
 }
 
+.mobile-background-section {
+  background-position: left center;
+}
+
+@media screen and (min-width: 768px) {
+  .desktop-background-section {
+    max-height: 1080px;
+  }
+}
 
 @media (max-width: 768px) {
   .reasons-grid {

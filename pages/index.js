@@ -46,7 +46,7 @@ export default function Home() {
 
       <main>
     <Navbar />
-    <BackgroundSection id="section1" imgSrc="/1.png">
+    <BackgroundSection id="section1" imgSrc="/1.png" mobilePosition="left top">
       <div className="section-content">
         <h1>allbots</h1>
         <p>Unleash the Ultimate Discord Experience with Custom Bots Tailored to You!</p>
@@ -54,7 +54,7 @@ export default function Home() {
     </BackgroundSection>
 
 
-    <BackgroundSection id="section2" imgSrc="/4.png">
+    <BackgroundSection id="section2" imgSrc="/4.png" mobilePosition="left top">
       <div className="section-content">
         <h2 className="bsection">Our Spectacular Services</h2>
         <div className="services-grid">
@@ -80,7 +80,7 @@ export default function Home() {
       </div>
     </BackgroundSection>
 
-    <BackgroundSection id="section3" imgSrc="/3.png">
+    <BackgroundSection id="section3" imgSrc="/3.png" mobilePosition="left top">
   <div className="section-content">
     <h2>Why Choose Us</h2>
     <div className="reasons-list">
@@ -109,7 +109,7 @@ export default function Home() {
   </div>
 </BackgroundSection>
 
-<BackgroundSection id="section4" imgSrc="/2.png">
+<BackgroundSection id="section4" imgSrc="/2.png" mobilePosition="left top">
   <div className="section-content bsection">
     <h2>Popular Discord Bot Ideas</h2>
     <div className="bot-ideas bsection">
@@ -141,7 +141,7 @@ export default function Home() {
   </div>
 </BackgroundSection>
 
-        <BackgroundSection id="section5" imgSrc="/5.png">
+        <BackgroundSection id="section5" imgSrc="/5.png" mobilePosition="left top">
           <div id="contact-section" className="section-content ">
             <h2>Contact Us</h2>
             {formSubmitted ? (
