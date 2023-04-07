@@ -82,7 +82,7 @@ export default function Home() {
 
     <BackgroundSection id="section3" imgSrc="/3.png" mobilePosition="left top">
   <div className="section-content">
-    <h2>Why Choose Us</h2>
+    <h2>Why Choose Us?</h2>
     <div className="reasons-list">
       <div className="reason">
         <i className="icon-expertise"></i>
@@ -147,6 +147,7 @@ export default function Home() {
             {formSubmitted ? (
               <div>
                 <p>We will contact you shortly!</p>
+                <p>May take up to 2 business days.</p>
               </div>
             ) : (
               <div>
