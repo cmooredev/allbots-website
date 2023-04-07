@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Link from 'next/link';
 
 const Navbar = () => {
   const [showNavbar, setShowNavbar] = useState(true);
@@ -29,8 +30,11 @@ const Navbar = () => {
   return showNavbar ? (
     <div className="navbar">
       <div className="navbar-container">
-      <a href="#">allbots</a>
-        <a href="#contact-section">Contact Us</a>
+      <Link href="/">allbots</Link>
+      <Link href="/#contact-section">Contact Us</Link>
+      <Link href="/portfolio">
+        Portfolio
+      </Link>
       </div>
     </div>
   ) : null;
