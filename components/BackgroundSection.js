@@ -7,28 +7,16 @@ const BackgroundSection = ({ children, imgSrc, id, mobilePosition = 'left top' }
       className={`background-section desktop-background-section mobile-background-section ${mobilePosition}`}
       style={{
         position: 'relative',
-        height: '100%',
+        minHeight: '100vh',
         backgroundImage: `url(${imgSrc})`,
         backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat', // Prevent image repetition
-        minHeight: '100vh',
+        backgroundPosition: mobilePosition,
+        backgroundRepeat: 'no-repeat',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
       }}
     >
-      <img
-        src={imgSrc}
-        alt=""
-        style={{
-          position: 'absolute',
-          width: '100%',
-          height: '100%',
-          objectFit: 'cover',
-          objectPosition: mobilePosition,
-        }}
-      />
       <div style={{ position: 'relative', zIndex: 1 }}>{children}</div>
     </div>
   );

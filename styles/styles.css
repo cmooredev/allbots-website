@@ -241,6 +241,13 @@ button:hover {
   background-position: left center;
 }
 
+.btn-custom {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+
 @media screen and (min-width: 768px) {
   .desktop-background-section {
     max-height: 1080px;
