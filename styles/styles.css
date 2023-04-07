@@ -12,10 +12,6 @@ body {
   line-height: 1.6;
 }
 
-.background-section {
-  height: 100vh; /* Add this line to make sure each section covers the full viewport height */
-}
-
 h1 {
   font-size: 450%;
 }
@@ -250,6 +246,12 @@ button:hover {
 @media screen and (min-width: 768px) {
   .desktop-background-section {
     max-height: 1080px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .background-section {
+    min-height: 100vh;
   }
 }
 
