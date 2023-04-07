@@ -38,7 +38,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>discord bots</title>
+        <title>allbots</title>
         <meta name="description" content="Hire us to build a Discord bot for you" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
