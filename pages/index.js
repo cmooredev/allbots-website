@@ -112,6 +112,7 @@ export default function Home() {
 <BackgroundSection id="section4" imgSrc="/2.png" mobilePosition="left top">
   <div className="section-content bsection">
     <h2>Popular Discord Bot Ideas</h2>
+    <h4>To get your creativity flowing</h4>
     <div className="bot-ideas bsection">
       <div className="bot-idea">
         <h3>Game Coordinator</h3>
