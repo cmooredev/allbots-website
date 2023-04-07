@@ -40,6 +40,7 @@ export default function Home() {
       <Head>
         <title>allbots</title>
         <meta name="description" content="Hire us to build a Discord bot for you" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
